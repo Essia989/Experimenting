@@ -1,0 +1,116 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(224, 241, 255);
+    /* display: flex; */
+    align-items: center;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(179, 179, 179);
+    width: 90%;
+    margin:auto;
+}
+.input-text{
+    border-radius: 3px;
+    border: 0px;
+    width: 300px;
+    padding-left: 5px;
+}
+.btn{
+    width: 120px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: rgb(8, 146, 196);
+    color: #fff;
+}
+/* Main styling */
+.main{
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex; 
+    border-radius: 1px;
+    border: #fff;
+    width:600px;
+    justify-content: space-around;
+}
+
+.row{
+    margin-top: 30px;
+    display: flex;
+}
+.col-large{
+    flex: 2;
+
+}
+.card{
+    border: 2px solid #999;
+    margin: 10px;
+    display: flex;
+    background-color: #fff;
+}
+.card .first-span{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.first-span{
+    flex: 1;
+    justify-content: center;
+}
+.second-span
+{
+    flex :2;
+    justify-content: center;
+    display: inline;
+    justify-items: auto;
+    align-items: center;
+    margin: auto;
+}
+.col-1{
+    flex: 1;
+    margin: 10px;
+}
+.definition{
+    border: 2px solid #999;
+    margin: 10px;
+    background-color: #fff;
+}
+.add_def{
+    padding: 10px;
+    background: #05b35c;
+    margin: 20px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+.definition{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.like-btn{
+    padding: 10px;
+    background: #ecf00a;
+    margin: 20px;
+    border: 1px solid #999;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+.bleu-text{
+    text-align: justify;
+    display: inline;
+    color: rgb(13, 123, 212);
+    text-decoration: underline;
+}

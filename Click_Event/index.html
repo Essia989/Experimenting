@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Click Event</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search ..." class="input-text">
+        <button type="button" id="btn" class="btn" onclick="Message(this)">Login</button>
+    </header>
+    <main id="main" class="main">
+        <div class="row">
+            <!-- Large column Flex 2 -->
+            <div class="col-large">
+                <div class="card">
+                    <span class="first-span">
+                        <h2>Ninja</h2>
+                        <h3>Noun</h3>
+                        <h3> Plural: ninjas</h3>
+                        <button type="button" id="like-btn1" class="like-btn" onclick="liked(this)"> 13 Likes</button>
+                    </span>
+                    <span class="second-span">
+                        A practitioner skilled in the <span class="bleu-text">Jananese</span> art of <span class="bleu-text">ninjutsu</span>
+                    </span>
+                </div> 
+                <div class="card">
+                
+                    <span class="first-span">
+                        <h2>Ninja</h2>
+                        <h3>Noun</h3>
+                        <h3> Plural: ninjas</h3>
+                        <button type="button" id="like-btn2" class="like-btn" onclick="liked(this)"> 13 Likes</button>
+                    </span>
+                    <span class="second-span">
+                        A practitioner skilled in the <span class="bleu-text">Jananese</span> art of <span class="bleu-text">ninjutsu</span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="definition">
+                    <h2>
+                        Dojonary is defined by YOU
+                    </h2>
+                    <button type="button" id="add_def" class="add_def btn">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
