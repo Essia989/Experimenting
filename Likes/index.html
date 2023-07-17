@@ -1,0 +1,79 @@
+9<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Network</h1>
+    </header>
+    <main id="main" class="main">
+        <div class="row">
+            <!-- Large column Flex 2 -->
+
+            <div class="col-1">
+                <div class="definition">
+                    <img src="images/photo1.jpg" alt="profile photo" class="img_profile">
+                    <a href="#">Add an avatar</a>
+                    <h1>Essia</h1>
+                </div>
+            </div>
+            <div class="col-large">
+                
+                <div class="card">
+                    
+                    <span class="second-span">
+                        <span class="first-span">
+                            <h2>Neil M</h2>
+                            <h3>Full Stack developer</h3>
+                        </span>
+                        <div>
+                            <span id="first-like">9</span> Likes
+                            <button type="button" id="like-btn1" class="like-btn" onclick="liked(1)">Like</button>
+                        </div>                        
+                    </span>
+                    <p>
+                        I just set up this new discord bot, let me know what you all think<a href="#">link</a>
+                    </p>
+                </div> 
+                <div class="card">
+                    
+                    <span class="second-span">
+                        <span class="first-span">
+                            <h2>Nicole K</h2>
+                            <h3>Comic creator</h3>
+                        </span>
+                        <div>
+                            <span id="scnd-like">12</span> Likes
+                            <button type="button" id="like-btn2" class="like-btn" onclick="liked(2)">Like</button>
+                        </div>                        
+                    </span>
+                    <p>
+                        Just finished my <a href="#">next comic</a>, check it out
+                    </p>
+                </div> 
+                <div class="card">
+                    
+                    <span class="second-span">
+                        <span class="first-span">
+                            <h2>Jim R</h2>
+                            <h3>Singer</h3>
+                        </span>
+                        <div>
+                            <span id="third-like">16</span> Likes
+                            <button type="button" id="like-btn3" class="like-btn" onclick="liked(3)">Like</button>
+                        </div>                        
+                    </span>
+                    <p>
+                        I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                    </p>
+                </div> 
+            
+        </div>
+    </main>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

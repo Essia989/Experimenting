@@ -1,0 +1,144 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(224, 241, 255);
+    /* display: flex; */
+    align-items: center;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(179, 179, 179);
+    width: 90%;
+    margin:auto;
+}
+.input-text{
+    border-radius: 3px;
+    border: 0px;
+    width: 300px;
+    padding-left: 5px;
+}
+.btn{
+    width: 120px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: rgb(8, 146, 196);
+    color: #fff;
+}
+/* Main styling */
+.main{
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* .card{
+    display: flex; 
+    border-radius: 1px;
+    border: #fff;
+    width:500px;
+    justify-content: space-around;
+} */
+
+.row{
+    margin-top: 30px;
+    display: flex;
+}
+.col-large{
+    flex: 2;
+
+}
+.card{
+    border: 2px solid #999;
+    margin: 10px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+}
+.card .first-span{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.card p{
+    margin-top: 20px;
+}
+.first-span{
+    flex: 1;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.second-span
+{
+    
+    justify-content: space-around;
+    display: flex;
+    /* margin: 20px; */
+    
+}
+.second-span p{
+    margin: 20px;
+    text-align: center;
+}
+.col-1{
+    flex: 1;
+    /* margin: 10px; */
+}
+.definition{
+    border: 2px solid #999;
+    margin: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.add_def{
+    padding: 10px;
+    background: #05b35c;
+    margin: 20px;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+.definition{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.like-btn{
+    padding: 10px;
+    background: #ecf00a;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid #999;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+}
+.bleu-text{
+    text-align: justify;
+    display: inline;
+    color: rgb(13, 123, 212);
+    text-decoration: underline;
+}
+.img_profile{
+    width: 175px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.definition a{
+    margin : 20px;
+}
+.definition h1{
+    margin-bottom: 10px;
+
+}
